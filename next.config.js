@@ -9,5 +9,6 @@ module.exports = withPlugins([withTM], {
     }
     return config;
   },
+  output: 'standalone',
   productionBrowserSourceMaps: true,
 });
